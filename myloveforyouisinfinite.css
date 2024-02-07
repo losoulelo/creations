@@ -1,0 +1,80 @@
+body {
+  background-color: black;
+}
+
+img {
+  width: 200px;
+}
+
+.images {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 50px;
+  padding-top:30px;
+  padding-right: 50px;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 400px;
+}
+
+.yes-no-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.text, .yay, .i-love-you {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+  padding-top: 350px;
+}
+
+.yay {
+  padding-top: 200px;
+}
+
+
+@keyframes button {
+  from {background-color: rgb(200, 61, 198)}
+  to {background-color: rgb(81, 109, 201);}
+}
+
+.the-button {
+  background-color: rgb(200, 61, 198);
+  color: white;
+  border: none;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 18px;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  margin-left: 8px;
+  transition: box-shadow 0.2s;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Mono', monospace;
+  animation-name: button;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.the-button:hover {
+  box-shadow: 5px 5px 5px rgb(79, 67, 76);
+}
